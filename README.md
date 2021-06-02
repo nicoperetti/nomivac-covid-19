@@ -3,15 +3,17 @@ Análisis de la vacunación en Argentina
 
 
 ## Create env
-'''sh
-conda env create -f enviroment.yml
-'''
 
-'''sh
+```sh
+conda env create -f enviroment.yml
+```
+
+```sh
 conda activate nomivac
-'''
+```
 
 ## Launch jupyter notebook
-'''sh
+
+```sh
 jupyter notebook
-'''
+```
