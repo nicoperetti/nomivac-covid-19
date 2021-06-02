@@ -1,0 +1,19 @@
+name: nomivac
+channels:
+  - default
+  - conda-forge
+  - anaconda
+dependencies:
+  - ipython=7.12.0
+  - jupyter=1.0.0
+  - jupyter_contrib_nbextensions=0.5.1
+  - numpy=1.18.4
+  - pandas=1.0.5
+  - pyarrow=0.17.1
+  - python=3.8.3
+  - plotly=4.14.3
+  - pip=20.1.1
+  - pip:
+    - python-dotenv>=0.5.1
+    - tqdm==4.48.2
+    - wget==3.2
